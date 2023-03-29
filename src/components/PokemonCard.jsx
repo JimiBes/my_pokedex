@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
+import { useEffect } from "react";
+
 
 function PokemonCard({Pokemon}) {
 
      return (
         <div>
-           <figure>
-            {Pokemon.imgSrc ? <img src={Pokemon.imgSrc} alt={Pokemon.name}/>
+           <figure className="card">
+            {Pokemon.imgSrc ? <img className="card-img" src={Pokemon.imgSrc} alt={Pokemon.name}/>
             : <p>???</p>}
             <figcaption>{Pokemon.name}</figcaption>
            </figure>

@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import App from "../App";
+import { useEffect } from "react";
 
 function NavBar ({pokemonIndex, handleClickPrevious, handleClickNext, pokemonList}) {
     
