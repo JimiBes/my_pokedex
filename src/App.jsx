@@ -11,24 +11,35 @@ function App() {
       name: "bulbasaur",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      style: "lightgreen",
+      type: "Plant"
     },
     {
       name: "charmander",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        style: "orange",
+        type: "Fire"
     },
     {
       name: "squirtle",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+        style: "blue",
+        type: "Aquatic"
     },
     {
       name: "pikachu",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        style: "yellow",
+        type: "Electrik"
     },
     {
       name: "mew",
+      imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+      style: "pink",
+      type: "Psychic"
     },
   ];
 
@@ -39,15 +50,7 @@ function App() {
     setPokemonIndex(pokemonIndex + 1)
   }
   
-  useEffect(
-    () => {
-    alert("Hello pokémon trainer !")
-  }, []
-  )
-
-  if (pokemonIndex === 3) {
-    alert("pika pikachu !!!")
-  }
+  
   
 return (
     <div>

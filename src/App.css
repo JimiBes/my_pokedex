@@ -5,51 +5,40 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.lightgreen {
+  background-color: lightgreen;;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orange {
+  background-color: rgb(220, 156, 38);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.blue {
+  background-color: rgb(96, 96, 201);
 }
 
-.card {
-  padding: 2em;
+.yellow {
+  background-color: rgb(231, 231, 77);
 }
 
-.read-the-docs {
-  color: #888;
+.pink {
+  background-color: pink;
 }
+
+.type {
+  font-size: 2rem;
+  text-shadow: 0px 0px 5px black;
+}
+
 .card {
   height: 100%;
   padding: 1rem;
-  background-color: lightgreen;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
+  box-shadow: 0px 0px 5px black;
   color: white;
-  font-size: 1.6rem;
+  font-size: 3rem;
   text-align: center;
-  text-shadow: 0px 0px 5px gray;
+  text-shadow: 0px 0px 5px black;
 }
 .card-img {
   width: 50%;

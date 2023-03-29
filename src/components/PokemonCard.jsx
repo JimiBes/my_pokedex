@@ -6,10 +6,11 @@ function PokemonCard({Pokemon}) {
 
      return (
         <div>
-           <figure className="card">
+           <figure className={`card ${Pokemon.style}`}>
             {Pokemon.imgSrc ? <img className="card-img" src={Pokemon.imgSrc} alt={Pokemon.name}/>
             : <p>???</p>}
             <figcaption>{Pokemon.name}</figcaption>
+            <p className="type">{Pokemon.type}</p>
            </figure>
         </div>
     )
