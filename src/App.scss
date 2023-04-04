@@ -1,0 +1,150 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  $font-family: "Courier New",
+  Courier;
+}
+
+.lightgreen {
+  background: #55DD33;
+
+  section {
+    p {
+      display: flex;
+      margin: 0 0 0.9rem 0;
+      padding: 0.5rem;
+      font-family: 'Crimson Text', serif;
+      font-size: 1.4rem;
+      text-align: left;
+      border-radius: 1rem;
+      background-color: #138808;
+      box-shadow: 0 0 0.5rem;
+
+
+    }
+  }
+}
+
+.orange {
+  background: rgb(240, 164, 12);
+
+  section {
+    p {
+      display: flex;
+      margin: 0 0 0.9rem 0;
+      padding: 0.5rem;
+      font-family: 'Crimson Text', serif;
+      font-size: 1.4rem;
+      text-align: left;
+      border-radius: 1rem;
+      background-color: #E25822;
+      box-shadow: 0 0 0.5rem;
+
+    }
+  }
+}
+
+.blue {
+  background: #0CAFFF;
+
+  section {
+    p {
+      display: flex;
+      margin: 0 0 0.9rem 0;
+      padding: 0.5rem;
+      font-family: 'Crimson Text', serif;
+      font-size: 1.4rem;
+      text-align: left;
+      border-radius: 1rem;
+      background-color: #0047AB;
+      box-shadow: 0 0 0.5rem;
+
+    }
+  }
+}
+
+.yellow {
+  background: rgb(246, 243, 80);
+
+  section {
+    p {
+      display: flex;
+      margin: 0 0 0.9rem 0;
+      padding: 0.5rem;
+      font-family: 'Crimson Text', serif;
+      font-size: 1.4rem;
+      text-align: left;
+      border-radius: 1rem;
+      background-color: #FEBE10;
+      box-shadow: 0 0 0.5rem;
+
+    }
+  }
+}
+
+.pink {
+  background: rgb(222, 12, 240);
+
+  section {
+    p {
+      display: flex;
+      margin: 0 0 0.9rem 0;
+      padding: 0.5rem;
+      font-family: 'Crimson Text', serif;
+      font-size: 1.4rem;
+      text-align: left;
+      border-radius: 1rem;
+      background-color: #800080;
+      box-shadow: 0 0 0.5rem;
+
+    }
+  }
+}
+
+.type {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 5px black;
+}
+
+.card {
+  width: 20rem;
+  height: 30rem;
+  padding: 1rem;
+  border: 1rem solid #D7d43f;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+
+  figcaption {
+    text-shadow: black 0 0 0.5rem;
+  }
+
+  .container-button {
+    display: flex;
+    justify-content: space-around;
+    button {
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem;
+      width: 5rem;
+      height: 2.5rem;
+      font-size: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.card-img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: inherit;
+  box-shadow: inherit;
+}
