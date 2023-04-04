@@ -9,7 +9,7 @@ function App() {
   const [pokemonIndex, setPokemonIndex] = useState(0);
   const pokemonList = [
     {
-      name: "Bulbizarre",
+      name: "#1 Bulbizarre",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
       style: "lightgreen",
@@ -17,7 +17,7 @@ function App() {
       section: "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance."
     },
     {
-      name: "Salamèche",
+      name: "#4 Salamèche",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
       style: "orange",
@@ -25,7 +25,7 @@ function App() {
       section: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue."
     },
     {
-      name: "Carapuce",
+      name: "#7 Carapuce",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
       style: "blue",
@@ -33,7 +33,7 @@ function App() {
       section: "Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume."
     },
     {
-      name: "Pikachu",
+      name: "#25 Pikachu",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
       style: "yellow",
@@ -41,7 +41,7 @@ function App() {
       section: "Quand plusieurs de ces pokémons se réunissent, ils provoquent de gigantesques orages."
     },
     {
-      name: "Mew",
+      name: "#151 Mew",
       imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
       style: "pink",
       type: "Type : Psy",

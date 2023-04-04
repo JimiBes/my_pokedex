@@ -3,8 +3,8 @@ function NavBar ({pokemonIndex, handleClickPrevious, handleClickNext, pokemonLis
     
     return (
         <div className="container-button">
-        {pokemonIndex > 0 ? <button onClick={handleClickPrevious}>Previous</button> : null}
-        {pokemonIndex < pokemonList.length - 1 ? <button onClick={handleClickNext}>Next</button> : null}
+        {pokemonIndex > 0 ? <button onClick={handleClickPrevious}>Précédent</button> : null}
+        {pokemonIndex < pokemonList.length - 1 ? <button onClick={handleClickNext}>Suivant</button> : null}
         </div>
     )
 }

@@ -18,9 +18,11 @@
       font-family: 'Crimson Text', serif;
       font-size: 1.4rem;
       text-align: left;
+      text-shadow: black 0 0 0.5rem;
       border-radius: 1rem;
       background-color: #138808;
-      box-shadow: 0 0 0.5rem;
+      box-shadow: black 0 0 0.5rem;
+      border: solid #55DD33 0.1rem;
 
 
     }
@@ -28,7 +30,7 @@
 }
 
 .orange {
-  background: rgb(240, 164, 12);
+  background: #f0a40c;
 
   section {
     p {
@@ -38,9 +40,11 @@
       font-family: 'Crimson Text', serif;
       font-size: 1.4rem;
       text-align: left;
+      text-shadow: black 0 0 0.5rem;
       border-radius: 1rem;
       background-color: #E25822;
-      box-shadow: 0 0 0.5rem;
+      box-shadow: black 0 0 0.5rem;
+      border: solid #f0a40c 0.1rem;
 
     }
   }
@@ -57,16 +61,18 @@
       font-family: 'Crimson Text', serif;
       font-size: 1.4rem;
       text-align: left;
+      text-shadow: black 0 0 0.5rem;
       border-radius: 1rem;
       background-color: #0047AB;
-      box-shadow: 0 0 0.5rem;
+      box-shadow: black 0 0 0.5rem;
+      border: solid #0CAFFF 0.1rem;
 
     }
   }
 }
 
 .yellow {
-  background: rgb(246, 243, 80);
+  background: #f6f350;
 
   section {
     p {
@@ -76,16 +82,18 @@
       font-family: 'Crimson Text', serif;
       font-size: 1.4rem;
       text-align: left;
+      text-shadow: black 0 0 0.5rem;
       border-radius: 1rem;
       background-color: #FEBE10;
-      box-shadow: 0 0 0.5rem;
+      box-shadow: black 0 0 0.5rem;
+      border: solid #f6f350 0.1rem;
 
     }
   }
 }
 
 .pink {
-  background: rgb(222, 12, 240);
+  background: #de0cf0;
 
   section {
     p {
@@ -95,9 +103,11 @@
       font-family: 'Crimson Text', serif;
       font-size: 1.4rem;
       text-align: left;
+      text-shadow: black 0 0 0.5rem;
       border-radius: 1rem;
       background-color: #800080;
-      box-shadow: 0 0 0.5rem;
+      box-shadow: black 0 0 0.5rem;
+      border: solid #de0cf0 0.1rem;
 
     }
   }
@@ -113,7 +123,7 @@
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 1rem solid #D7d43f;
+  border: 1rem solid #e0bf04;
   border-radius: 5px;
   box-shadow: 0px 0px 5px black;
   color: white;
@@ -127,6 +137,7 @@
   .container-button {
     display: flex;
     justify-content: space-around;
+
     button {
       display: flex;
       flex-direction: row;
@@ -145,6 +156,6 @@
   height: auto;
   margin-bottom: 0.5rem;
   background-color: white;
-  border-radius: inherit;
+  border-radius: 2rem;
   box-shadow: inherit;
 }
