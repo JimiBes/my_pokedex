@@ -9,6 +9,7 @@
 
 .lightgreen {
   background: #55DD33;
+  border: 1rem solid #138808;
 
   section {
     p {
@@ -23,14 +24,21 @@
       background-color: #138808;
       box-shadow: black 0 0 0.5rem;
       border: solid #55DD33 0.1rem;
-
-
     }
   }
 }
 
+.lightgreen-button {
+  background-color: #138808;
+  box-shadow: black 0 0 0.5rem;
+  border: solid #55DD33 0.1rem;
+  color: white;
+  text-shadow: black 0 0 0.5rem;
+}
+
 .orange {
   background: #f0a40c;
+  border: 1rem solid #E25822;
 
   section {
     p {
@@ -45,13 +53,21 @@
       background-color: #E25822;
       box-shadow: black 0 0 0.5rem;
       border: solid #f0a40c 0.1rem;
-
     }
   }
 }
 
+.orange-button {
+  background-color: #E25822;
+  box-shadow: black 0 0 0.5rem;
+  border: solid #f0a40c 0.1rem;
+  color: white;
+  text-shadow: black 0 0 0.5rem;
+}
+
 .blue {
   background: #0CAFFF;
+  border: 1rem solid #0047AB;
 
   section {
     p {
@@ -66,13 +82,21 @@
       background-color: #0047AB;
       box-shadow: black 0 0 0.5rem;
       border: solid #0CAFFF 0.1rem;
-
     }
   }
 }
 
+.blue-button {
+  background-color: #0047AB;
+  box-shadow: black 0 0 0.5rem;
+  border: solid #0CAFFF 0.1rem;
+  color: white;
+  text-shadow: black 0 0 0.5rem;
+}
+
 .yellow {
   background: #f6f350;
+  border: 1rem solid #FEBE10;
 
   section {
     p {
@@ -87,13 +111,21 @@
       background-color: #FEBE10;
       box-shadow: black 0 0 0.5rem;
       border: solid #f6f350 0.1rem;
-
     }
   }
 }
 
+.yellow-button {
+  background-color: #FEBE10;
+  box-shadow: black 0 0 0.5rem;
+  border: solid #f6f350 0.1rem;
+  color: white;
+  text-shadow: black 0 0 0.5rem;
+}
+
 .pink {
   background: #de0cf0;
+  border: 1rem solid #800080;
 
   section {
     p {
@@ -108,9 +140,16 @@
       background-color: #800080;
       box-shadow: black 0 0 0.5rem;
       border: solid #de0cf0 0.1rem;
-
     }
   }
+}
+
+.pink-button {
+  background-color: #800080;
+  box-shadow: black 0 0 0.5rem;
+  border: solid #de0cf0 0.1rem;
+  color: white;
+  text-shadow: black 0 0 0.5rem;
 }
 
 .type {
@@ -123,8 +162,7 @@
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 1rem solid #e0bf04;
-  border-radius: 5px;
+  border-radius: 1rem;
   box-shadow: 0px 0px 5px black;
   color: white;
   font-size: 2rem;
@@ -159,3 +197,4 @@
   border-radius: 2rem;
   box-shadow: inherit;
 }
+

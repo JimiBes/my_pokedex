@@ -19,7 +19,7 @@ function PokemonCard({ Pokemon, pokemonIndex, setPokemonIndex, pokemonList }) {
             <figcaption>{Pokemon.name}</figcaption>
             <p className="type">{Pokemon.type}</p>
             <Section Pokemon={Pokemon.section} />
-            <NavBar pokemonIndex={pokemonIndex} handleClickNext={handleClickNext} handleClickPrevious={handleClickPrevious} pokemonList={pokemonList} />
+            <NavBar Pokemon={Pokemon} pokemonIndex={pokemonIndex} handleClickNext={handleClickNext} handleClickPrevious={handleClickPrevious} pokemonList={pokemonList} />
          </figure>
       </div>
    )
